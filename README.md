@@ -12,7 +12,7 @@ This plugin displays the latest entries from the onthisday.com Web page.  The Py
 1. Find "Private Plugin" and click.
 2. Click on "Add New".
 3. Give it a name, and select "Webhook" for the Strategy. Click "Save".
-4. Collect the Plugin UUID as well as your TRMNL API key.
+4. Note the Plugin UUID and your TRMNL API key.
 5. Download the code and in the same folder as it, create a ``.env`` file, and populate like so:
 ```
 TRMNL_API_KEY="<your api key>"
