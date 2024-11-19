@@ -11,15 +11,13 @@ This plugin displays the latest entries from the onthisday.com Web page.  The Py
 0. Start at usetrmnl.com/plugins
 1. Find "Private Plugin" and click.
 2. Click on "Add New".
-3. Give it a name, and select "Webhook" for the Strategy. Click "Save".
-4. Note the Plugin UUID and your TRMNL API key.
-5. Download the code and in the same folder as it, create a ``.env`` file, and populate like so:
+3. Give it a name, select the refresh rate (once a day is sufficient) and select "Webhook" for the strategy. Click "Save" at the top right.
+4. Note the Plugin UUID.
+5. Download the "onthisdayinhistory.py" code from this repo and change the line below to have the plugin UUID noted above.
 ```
-TRMNL_API_KEY="<your api key>"
-TODOIST_API="<your api key>"
-TRMNL_PLUGIN_ID="<your plugin UUID>"
+PLUGIN_UUID = "<YOUR PLUGIN UUID>"
 ```
-4. Take the code in ``template.html.j2`` and add it as the markup for your TRMNL plugin
-5. Run ``main.py`` and if it successfully posts to TRMNL you should be set. You can force a refresh in TRMNL to see if the data populates.
+4. Copy HTML from the ".html" files in this repo and paste the contents in for the four views.
+5. Run ``onthisdayinhistory.py`` and it should push data to the TRML plugin.  Force a refresh to see if the data populates.
 
-From there, you can schedule the code to run at regular intervals to post to TRMNL based on your desired frequency.
+Set up the "onthisdayinhistory.py" Python program to run once a day to push new data to TRMNL.
