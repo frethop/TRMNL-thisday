@@ -2,7 +2,7 @@
 
 On This Day in History plugin for TRMNL
 
-<kbd><img src="https://github.com/frethop/TRMNL-thisday/blob/main/onthisday.png" alt="On This Day" width="50%"></kbd>
+<kbd>![on-this-day-plugin](https://github.com/frethop/TRMNL-thisday/blob/main/onthisday.png)></kbd>
 
 ## Intro
 This plugin displays the latest entries from the onthisday.com Web page.  The Python code contained here needs to scrape the page and is used to generate plugin data.
