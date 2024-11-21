@@ -20,4 +20,4 @@ PLUGIN_UUID = "<YOUR PLUGIN UUID>"
 4. Copy HTML from the ".html" files in this repo and paste the contents in for the four views.
 5. Run ``onthisdayinhistory.py`` and it should push data to the TRML plugin.  Force a refresh to see if the data populates.
 
-Set up the "onthisdayinhistory.py" Python program to run once a day to push new data to TRMNL.
+Set up the ``onthisdayinhistory.py`` Python program to run once a day to push new data to TRMNL.
