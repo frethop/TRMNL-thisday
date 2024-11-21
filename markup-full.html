@@ -1,29 +1,26 @@
-        <div class="layout">
-          <div class="columns">
-            <div class="column">
-                <span class="value value--large">This Day in History</span>
-                <span class="value value--small">{{ date }}</span>
-              <div class="grid grid--cols-2">
-                {{ itemsColOne }}
-                {{ itemsColTwo }}
-                {{ itemsColThree }}
-                {{ itemsColFour }}
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="title_bar">
-          <img class="image" src="https://usetrmnl.com/images/plugins/trmnl--render.svg" />
-          <span class="title">This Day from onthisday.com</span>
-          <span class="instance">{{ date }}</span>
-        </div>
+<style>
+  .trmnl .content .description {
+     word-break: break-word;
+  }
+</style>
 
+<div class="layout">
+  <div class="columns">
+    <div class="column">
+        <span class="value value--large">This Day in History</span>
+        <span class="value value--small">{{ date }}</span>
+      <div class="grid grid--cols-2" >
+        {{ itemsColOne }}
+        {{ itemsColTwo }}
+        {{ itemsColThree }}
+        {{ itemsColFour }}
+      </div>
+    </div>
+  </div>
+</div>
 
-
-
-
-
-
-
-
+<div class="title_bar">
+  <img class="image" src="https://usetrmnl.com/images/plugins/trmnl--render.svg" />
+  <span class="title">This Day from onthisday.com</span>
+  <span class="instance">{{ date }}</span>
+</div>
