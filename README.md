@@ -2,7 +2,7 @@
 
 On This Day in History plugin for TRMNL
 
-<img src="https://media.discordapp.net/attachments/1284987869546549268/1308128200777273485/device-2024-11-18T12-43-4801-00.png?ex=673cd0d2&is=673b7f52&hm=a55369c169a51eecb4598f39653c23a7f9b9ae70dba9a186626fdccfb542557c&=&format=webp&quality=lossless" alt="On This Day" width="50%">
+<kbd><img src="https://github.com/frethop/TRMNL-thisday/blob/main/onthisday.png" alt="On This Day" width="50%"></kbd>
 
 ## Intro
 This plugin displays the latest entries from the onthisday.com Web page.  The Python code contained here needs to scrape the page and is used to generate plugin data.
