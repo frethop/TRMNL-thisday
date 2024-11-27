@@ -29,4 +29,4 @@ jobs:
         
     - name: Run the ships program
       run: |
-        python thisdayinhistory.py
+        python onthisdayinhistory.py
