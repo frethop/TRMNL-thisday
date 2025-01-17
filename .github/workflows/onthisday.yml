@@ -2,10 +2,10 @@
 
 name: TRMNL OnThisDay data webhook
 
-on:
-  schedule:
-    - cron: '30 1 * * *'
-  workflow_dispatch:
+# on:
+#   schedule:
+#     - cron: '30 1 * * *'
+#   workflow_dispatch:
 
 permissions:
   contents: read
